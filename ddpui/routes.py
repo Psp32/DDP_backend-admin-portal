@@ -24,6 +24,12 @@ from ddpui.api.dashboard_native_api import dashboard_native_router
 from ddpui.api.filter_api import filter_router
 from ddpui.api.public_api import public_router
 from ddpui.api.report_api import report_router
+from ddpui.api.admin_portal.organizations import organizations_router
+from ddpui.api.admin_portal.roles import roles_router
+from ddpui.api.admin_portal.invitations import invitations_router
+from ddpui.api.admin_portal.warehouses import warehouses_router
+from ddpui.api.admin_portal.health import health_router
+from ddpui.api.admin_portal.audit_logs import audit_logs_router
 
 
 src_api = NinjaAPI(
@@ -108,6 +114,12 @@ src_api.add_router("/api/charts/", charts_router)
 src_api.add_router("/api/dashboards/", dashboard_native_router)
 src_api.add_router("/api/filters/", filter_router)
 src_api.add_router("/api/reports/", report_router)
+src_api.add_router("/api/v1/admin/", organizations_router)
+src_api.add_router("/api/v1/admin/", roles_router)
+src_api.add_router("/api/v1/admin/", invitations_router)
+src_api.add_router("/api/v1/admin/", warehouses_router)
+src_api.add_router("/api/v1/admin/", health_router)
+src_api.add_router("/api/v1/admin/", audit_logs_router)
 
 # Public API without authentication
 public_api = NinjaAPI(
