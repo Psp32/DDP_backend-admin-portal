@@ -1,3 +1,26 @@
+## 🛠️ Admin Portal Prototype — C4GT 2025 Proposal
+
+This fork contains a prototype implementation of the **Dalgo Admin Portal**
+as a C4GT 2025 selection proposal.
+
+### What's implemented
+- Admin authentication guard (`is_platform_admin`)
+- Organization CRUD with pagination, search, and bulk operations
+- Role-based access control (RBAC) at endpoint level
+- Automatic audit logging middleware
+- Warehouse health check service
+- Platform health aggregation endpoint
+- Invitation management API
+- Database migration + tests + full proposal docs
+
+### Branch
+`feature/c4gt-admin-portal`
+
+### Proposal Documentation
+Full architecture decisions, API reference, and roadmap:
+[docs/admin-portal-proposal.md](docs/admin-portal-proposal.md)
+
+---
 ## DDP_backend
 
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
