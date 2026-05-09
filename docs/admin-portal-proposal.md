@@ -1,4 +1,4 @@
-# Dalgo Admin Portal — Backend Proposal (C4GT 2025)
+# Dalgo Admin Portal — Backend Proposal (C4GT 2026)
 
 
 ## Overview
