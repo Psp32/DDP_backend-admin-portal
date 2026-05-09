@@ -85,6 +85,23 @@ ddpui/
 - **Isolated modules** — all admin code lives in dedicated subpackages
 - **Consistent conventions** — Django Ninja routers, `HttpError` semantics, PEP8/Black formatting throughout
 
+### Screenshots
+
+<table width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <img src="Dalgo_System_Architecture.png" width="100%" alt="Dalgo System Architecture">
+      <br />
+      <strong>System Architecture</strong>
+    </td>
+    <td width="50%" align="center">
+      <img src="Dalgo_Request_Flow.png" width="100%" alt="Dalgo Request Flow">
+      <br />
+      <strong>Request Flow</strong>
+    </td>
+  </tr>
+</table>
+
 ---
 
 ## 3. Authentication & Authorization
